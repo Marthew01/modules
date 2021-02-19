@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="388dd724-a7eb-43cd-97bb-7dbd6d065c49" name="Default Changelist" comment="2021/2/19">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/springboot-web/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../新建文件夹/springboot-web/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../新建文件夹/springboot-web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../新建文件夹/springboot-web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springboot-web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../springboot-web/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -66,13 +64,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../新建文件夹/springboot-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -97,19 +95,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.AdminApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AdminApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="admin" />
       <extension name="coverage">
@@ -212,7 +197,8 @@
       <workItem from="1612747866769" duration="234000" />
       <workItem from="1612748308074" duration="66000" />
       <workItem from="1612748387038" duration="1883000" />
-      <workItem from="1612751309579" duration="30066000" />
+      <workItem from="1612751309579" duration="27632000" />
+      <workItem from="1613704119000" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1611889397718</created>
@@ -226,17 +212,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
