@@ -18,5 +18,9 @@ public void tt(){
     System.out.println("ceshi");
 }
 
+    public void tteee(){
+        System.out.println("ssss");
+    }
+
 
 }
