@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="388dd724-a7eb-43cd-97bb-7dbd6d065c49" name="Default Changelist" comment="commit">
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/admin.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/AdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/config/MyWebMvcConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/config/redis/RedisConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/config/shiro/EnceladusShiroRealm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/config/shiro/PasswordHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/config/shiro/ShiroConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/controller/GuestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/exception/ExceptionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/java/com/web/admin/interceptor/LoginInterceptors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/datebase/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/hibernate.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/log/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/css/dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/img/bootstrap-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/js/Chart.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/js/feather.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/js/jquery-3.2.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/asserts/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/css/starter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/images/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/images/user.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/font/iconfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/font/iconfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/font/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/font/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/font/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/20.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/21.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/22.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/23.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/24.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/25.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/26.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/27.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/28.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/29.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/30.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/31.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/32.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/33.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/34.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/35.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/36.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/37.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/38.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/39.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/40.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/41.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/42.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/43.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/44.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/45.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/46.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/47.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/48.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/49.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/5.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/50.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/51.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/52.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/53.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/54.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/55.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/56.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/57.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/58.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/59.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/6.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/60.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/61.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/62.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/63.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/64.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/65.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/66.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/67.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/68.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/69.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/7.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/70.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/71.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/8.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/images/face/9.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/element.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/laydate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/layedit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/laypage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/laytpl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/mobile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/rate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/transfer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/tree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/lay/modules/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/layui.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/layui/layui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/static/script/myscript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/common/403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/common/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/common/sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/common/success.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/common/titlebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/other/common.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/other/dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/other/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/other/layui.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/main/resources/templates/user/userInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/admin/src/test/java/com/web/admin/AdminApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/common/common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/common/src/main/java/com/web/common/util/DateUtil8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/common/src/main/java/com/web/common/util/HttpServletUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/common/src/main/java/com/web/common/util/PageSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/component/component.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/component/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/jpa/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/model/ResponseResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/model/SysPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/model/SysRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/model/common/RestPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/model/common/ResultEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/model/common/ResultVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/dao/src/main/java/com/web/dao/result/ResultVoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/service/service.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/service/src/main/java/com/web/service/IBaseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/service/src/main/java/com/web/service/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/service/src/main/java/com/web/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot-web - 副本/service/src/main/java/com/web/service/redis/RedisService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\tools\maven\repository" />
+        <option name="mavenHome" value="D:\tools\maven\apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\tools\maven\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="1ndlzeDizbxdLIwzBMkMFdpeo5u" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace_person\springboot-web - 副本\admin\src\main\java\com\web\admin" />
+      <recent name="D:\workspace_person\springboot-web - 副本\service\src\main\java\com\web\service" />
+      <recent name="D:\workspace_person\springboot-web\common\src\main\java\com\web\common" />
+      <recent name="D:\workspace_person\springboot-web\dao\src\main\java\com\web\dao" />
+      <recent name="D:\workspace_person\springboot-web\admin\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.web.common.util" />
+      <recent name="com.web.dao.result" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.web.AdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.web.AdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.web.AdminApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AdminApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="388dd724-a7eb-43cd-97bb-7dbd6d065c49" name="Default Changelist" comment="" />
+      <created>1611728114010</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611728114010</updated>
+      <workItem from="1611728115077" duration="8929000" />
+      <workItem from="1611737308715" duration="1983000" />
+      <workItem from="1611827175305" duration="43000" />
+      <workItem from="1611827737747" duration="1528000" />
+      <workItem from="1611829280723" duration="7000" />
+      <workItem from="1611887578486" duration="662000" />
+      <workItem from="1611888375144" duration="1141000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1611889397718</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611889397718</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+</project>

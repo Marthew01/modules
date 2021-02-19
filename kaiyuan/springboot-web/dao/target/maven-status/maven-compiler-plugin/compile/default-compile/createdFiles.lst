@@ -1,0 +1,10 @@
+com\web\dao\result\ResultVoUtil.class
+com\web\dao\model\common\ResultEnum.class
+com\web\dao\model\ResponseResult.class
+com\web\dao\model\SysRole.class
+com\web\dao\jpa\UserRepository.class
+com\web\dao\model\User.class
+com\web\dao\mapper\UserMapper.class
+com\web\dao\model\common\RestPage.class
+com\web\dao\model\SysPermission.class
+com\web\dao\model\common\ResultVo.class

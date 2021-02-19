@@ -1,0 +1,4 @@
+com\web\service\IBaseService.class
+com\web\service\impl\UserServiceImpl.class
+com\web\service\redis\RedisService.class
+com\web\service\IUserService.class
