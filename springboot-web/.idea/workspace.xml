@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="388dd724-a7eb-43cd-97bb-7dbd6d065c49" name="Default Changelist" comment="2021/2/19" />
+    <list default="true" id="388dd724-a7eb-43cd-97bb-7dbd6d065c49" name="Default Changelist" comment="2021/2/19">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_2_19_019_11_42_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,13 @@
         <option value="Interface" />
         <option value="Class" />
       </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
     </option>
   </component>
   <component name="Git.Settings">
@@ -208,7 +218,7 @@
       <workItem from="1612747866769" duration="234000" />
       <workItem from="1612748308074" duration="66000" />
       <workItem from="1612748387038" duration="1883000" />
-      <workItem from="1612751309579" duration="30373000" />
+      <workItem from="1612751309579" duration="31607000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1611889397718</created>
@@ -248,7 +258,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/web/admin/controller/UserController.java</url>
-          <line>36</line>
+          <line>48</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -298,12 +308,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/web/admin/controller/AdminController.java</url>
-          <line>54</line>
+          <line>93</line>
           <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/web/admin/controller/AdminController.java</url>
-          <line>67</line>
+          <line>106</line>
           <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -338,17 +348,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/web/admin/controller/LoginController.java</url>
-          <line>72</line>
+          <line>92</line>
           <option name="timeStamp" value="222" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/web/admin/controller/LoginController.java</url>
-          <line>85</line>
+          <line>105</line>
           <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/admin/src/main/java/com/web/admin/controller/LoginController.java</url>
-          <line>65</line>
+          <line>91</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
