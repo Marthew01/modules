@@ -8,10 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="admin" />
-        <module name="component" />
+        <module name="shiro-jwt" />
         <module name="dao" />
         <module name="common" />
         <module name="service" />
+        <module name="redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -19,7 +20,9 @@
       <module name="common" target="1.8" />
       <module name="component" target="1.8" />
       <module name="dao" target="1.8" />
+      <module name="redis" target="8" />
       <module name="service" target="1.8" />
+      <module name="shiro-jwt" target="1.8" />
       <module name="TTMM" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -30,7 +33,9 @@
       <module name="common" options="-parameters" />
       <module name="component" options="-parameters" />
       <module name="dao" options="-parameters" />
+      <module name="redis" options="-parameters" />
       <module name="service" options="-parameters" />
+      <module name="shiro-jwt" options="-parameters" />
     </option>
   </component>
 </project>

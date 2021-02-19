@@ -32,7 +32,7 @@ public class ResultVoUtil {
      * @param object 对象
      */
     public static <T> ResultVo<T> success(T object) {
-        String message = ResultEnum.SUCCESS.getMessage();
+        String message = ResultEnum.SUCCESS.getMsg();
         return success(message, object);
     }
 
@@ -50,6 +50,21 @@ public class ResultVoUtil {
         return success(null);
     }
 
+    /**
+     * 操作有误
+     * @param code 错误码
+     * @param msg 提示信息
+     * @param obj 错误data
+     * @param <T>
+     * @return
+     */
+    public static <T> ResultVo<T> error(Integer code, String msg,T obj) {
+        ResultVo resultVo = new ResultVo();
+        resultVo.setMsg(msg);
+        resultVo.setCode(code);
+        resultVo.setData(obj);
+        return resultVo;
+    }
     /**
      * 操作有误
      *

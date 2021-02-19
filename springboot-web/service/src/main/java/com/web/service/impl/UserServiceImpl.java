@@ -3,10 +3,9 @@ package com.web.service.impl;
 import com.web.common.util.PageSort;
 import com.web.dao.jpa.UserRepository;
 import com.web.dao.mapper.UserMapper;
-import com.web.dao.model.User;
 import com.web.dao.model.common.RestPage;
+import com.web.dao.model.entity.User;
 import com.web.service.IUserService;
-import com.web.service.redis.RedisService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
@@ -32,9 +31,6 @@ public class UserServiceImpl implements IUserService {
     @Autowired
     UserMapper userMapper;
 
-    @Autowired
-    RedisService redisService;
-
     @Override
     public RestPage<User> getPageList(User user) {
         log.info("====@Cacheable(user)======getPageList");
@@ -52,7 +48,7 @@ public class UserServiceImpl implements IUserService {
     }
 
 
-    @Cacheable(value = "user",key = "#result.id")
+//    @Cacheable(value = "user",key = "#result.id")
     @Override
     public User findUserById(long id) {
         log.info("===@Cacheable(user,result.id)=========findUserById");
@@ -64,6 +60,12 @@ public class UserServiceImpl implements IUserService {
     public User findUserByName(String userName) {
         log.info("============findUserByName");
         return userRepository.findByUsername(userName);
+    }
+
+    @Override
+    public User findUserByAccount(String account) {
+        log.info("============findUserByName");
+        return userRepository.findByAccount(account);
     }
 
     @Override

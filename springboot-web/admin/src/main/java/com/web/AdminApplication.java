@@ -5,10 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
 
-/**
- * @author Administrator
- */
-@EnableCaching
 @MapperScan("com.web.dao.mapper")
 @SpringBootApplication(scanBasePackages="com.web")
 public class AdminApplication {

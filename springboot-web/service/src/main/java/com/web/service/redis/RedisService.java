@@ -1,3 +1,4 @@
+/*
 package com.web.service.redis;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,12 +9,14 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.Map;
 
+*/
 /**
  * @author zhang-rongyao
  * @version V 1.0
  * @Package com.fapiao.layui.service.redis
  * @date 2021/1/15/015 14:08
- */
+ *//*
+
 @Service
 public class RedisService<T> {
 
@@ -36,9 +39,11 @@ public class RedisService<T> {
     public RedisService() {
         redis=new HashMap<>();
     }
-    /***
+    */
+/***
      * 读取缓存
-     * */
+     * *//*
+
     public  Object getCache(String key){
         if (isCached(key)){
             Object bean=redis.get(key);
@@ -49,9 +54,11 @@ public class RedisService<T> {
             return  null;
         }
     }
-    /**
+    */
+/**
      * 写入缓存
-     * */
+     * *//*
+
     public boolean writeCache(String key,Object bean){
         if (!isCached(key)){
             redis.put(key,bean);
@@ -62,15 +69,19 @@ public class RedisService<T> {
             return  false;
         }
     }
-    /**
+    */
+/**
      * 判断是否存在缓存
-     * */
+     * *//*
+
     public  boolean isCached(String key){
         return redisTemplate.hasKey(key);
     }
-    /***
+    */
+/***
      * 修改缓存
-     * */
+     * *//*
+
     public boolean setCache(String key,Object bean){
         if (isCached(key)){
             redis.put(key,bean);
@@ -83,3 +94,4 @@ public class RedisService<T> {
 
 
 }
+*/

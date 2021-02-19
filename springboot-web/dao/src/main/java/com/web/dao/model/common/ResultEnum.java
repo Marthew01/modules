@@ -1,9 +1,11 @@
 package com.web.dao.model.common;
 
+import org.springframework.http.HttpStatus;
+
 /**
  * @author zhang-rongyao
  * @version V 1.0
- * @Package com.fapiao.layui.model.common
+ * @Package com.web.dao.model.common
  * @date 2021/1/12/012 10:15
  */
 public enum ResultEnum {
@@ -17,12 +19,17 @@ public enum ResultEnum {
     /**
      * 账户问题
      */
+    USER_ADMIN(401,"登录认证失败"),
+    USER_NOT_EXIST(HttpStatus.UNAUTHORIZED.value(), "该用户名不存在"),
     USER_EXIST(401, "该用户名已经存在"),
+    USER_ANONYMOUS(401,"无权访问,请先登录"),
     USER_PWD_NULL(402, "密码不能为空"),
+    USER_PWD_ERROR(402, "密码错误"),
     USER_INEQUALITY(403, "两次密码不一致"),
     USER_OLD_PWD_ERROR(404, "原来密码不正确"),
     USER_NAME_PWD_NULL(405, "用户名和密码不能为空"),
     USER_CAPTCHA_ERROR(406, "验证码错误"),
+
 
     /**
      * 角色问题
@@ -57,11 +64,11 @@ public enum ResultEnum {
 
     private Integer code;
 
-    private String message;
+    private String msg;
 
-    ResultEnum(Integer code, String message) {
+    ResultEnum(Integer code, String msg) {
         this.code = code;
-        this.message = message;
+        this.msg = msg;
     }
 
     public Integer getCode() {
@@ -72,11 +79,11 @@ public enum ResultEnum {
         this.code = code;
     }
 
-    public String getMessage() {
-        return message;
+    public String getMsg() {
+        return msg;
     }
 
-    public void setMessage(String message) {
-        this.message = message;
+    public void setMsg(String msg) {
+        this.msg = msg;
     }
 }

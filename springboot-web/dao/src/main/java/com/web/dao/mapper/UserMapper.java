@@ -1,6 +1,9 @@
 package com.web.dao.mapper;
 
-import com.web.dao.model.User;
+import com.web.dao.model.UserDto;
+import com.web.dao.model.entity.SysRole;
+import com.web.dao.model.entity.User;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -14,9 +17,12 @@ import java.util.List;
 @Repository
 public interface UserMapper {
 
+    public UserDto findOne(User user);
+
     public User findById(Long id);
 
     public User findByUsername(String username);
 
     public List<User> findAll();
+
 }

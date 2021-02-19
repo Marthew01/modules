@@ -1,6 +1,6 @@
 package com.web.dao.jpa;
 
-import com.web.dao.model.User;
+import com.web.dao.model.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -24,8 +24,17 @@ public interface UserRepository extends JpaRepository <User, Long> {
      * @param username
      * @return
      */
+
     public User findByUsername(String username);
 
+
+    /**
+     * 查询用户
+     * @param account
+     * @return
+     */
+
+    public User findByAccount(String account);
     /**
      * 保存
      * @param user

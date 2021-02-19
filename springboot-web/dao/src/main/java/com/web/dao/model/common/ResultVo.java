@@ -2,8 +2,10 @@ package com.web.dao.model.common;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
+import java.io.Serializable;
+
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class ResultVo<T> {
+public class ResultVo<T>{
 
     /**状态码
      *
